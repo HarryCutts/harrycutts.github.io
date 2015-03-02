@@ -2,8 +2,13 @@
  * Sidebar
  */
 .sidebar {
-	// Positioning context for the mobile navigation icon
-	position: relative;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+
+	& + div {
+		margin-left: 20%;
+	}
 }
 
 
