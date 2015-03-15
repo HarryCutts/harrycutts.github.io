@@ -1,14 +1,45 @@
 /**
  * Sidebar
  */
-@media screen and (min-width: $device-palm) {
-	.sidebar {
+.sidebar {
+	position: relative;
+
+	padding: $padding;
+
+	text-align: center;
+
+	background-color: $sidebar-color;
+
+	& + div {
+		margin-left: 20%;
+	}
+
+	.mugshot {
+		float: left;
+
+		width: 80%;
+		max-width: 12em;
+		border-radius: 50%;
+	}
+
+	.sidebar-footer {
+		font-size: smaller;
+	}
+
+	@media screen and (min-width: $device-palm) {
 		position: fixed;
 		top: 0;
 		bottom: 0;
 
-		& + div {
-			margin-left: 20%;
+		.mugshot {
+			float: none;
+		}
+
+		.sidebar-footer {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
 		}
 	}
 }

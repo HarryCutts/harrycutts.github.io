@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-
+* { box-sizing: border-box; }
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -12,6 +12,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$padding:          8px;
 
 $device-palm:      48em;
 $device-laptop:    800px;
