@@ -1,6 +1,7 @@
 # Site settings
 title: Harry Cutts
 email: your-email@domain.com
+tagline: Computer scientist, author, and fencer.
 description: > # this means to ignore newlines until "baseurl:"
   I'm a Computer Science student in my final year at the University of
   Southampton. My main interests are information security and user experience
