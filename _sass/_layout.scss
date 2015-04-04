@@ -10,10 +10,6 @@
 
 	background-color: $sidebar-color;
 
-	& + div {
-		margin-left: 20%;
-	}
-
 	.mugshot {
 		float: left;
 
@@ -30,6 +26,10 @@
 		position: fixed;
 		top: 0;
 		bottom: 0;
+
+		& + div {
+			margin-left: 20%;
+		}
 
 		.mugshot {
 			float: none;
