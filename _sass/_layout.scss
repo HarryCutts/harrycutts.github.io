@@ -1,6 +1,8 @@
 /**
  * Sidebar
  */
+$sidebar-width: 20%;
+
 .sidebar {
 	position: relative;
 
@@ -26,9 +28,10 @@
 		position: fixed;
 		top: 0;
 		bottom: 0;
+		width: $sidebar-width;
 
 		& + div {
-			margin-left: 20%;
+			margin-left: $sidebar-width;
 		}
 
 		.mugshot {
