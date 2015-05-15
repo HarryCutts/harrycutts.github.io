@@ -21,7 +21,7 @@ $sidebar-width: 20%;
 	}
 
 	.sidebar-footer {
-		font-size: smaller;
+		font-size: $small-font-size;
 	}
 
 	@media screen and (min-width: $device-palm) {
@@ -111,7 +111,7 @@ $sidebar-width: 20%;
 }
 
 .legal-gumph {
-	font-size: smaller;
+	font-size: $small-font-size;
 	color: $grey-color;
 }
 
