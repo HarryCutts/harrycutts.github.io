@@ -6,7 +6,7 @@
 * { box-sizing: border-box; }
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "DejaVu Sans ExtraLight", Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -18,6 +18,12 @@ $device-palm:      48em;
 $device-laptop:    800px;
 
 @import "colors";
+
+@font-face {
+	font-family: "DejaVu Sans ExtraLight";
+	src: local("DejaVu Sans ExtraLight"),
+		url("{{site.baseurl}}/fonts/DejaVuSans-ExtraLight.ttf");
+}
 
 
 // Using media queries with like this:

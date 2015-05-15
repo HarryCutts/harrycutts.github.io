@@ -9,6 +9,13 @@ dl, dd, ol, ul, figure {
 }
 
 
+/**
+ * Set the base font family for Pure (http://purecss.io/grids/#using-grids-with-custom-fonts)
+ */
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+	font-family: $base-font-family;
+}
 
 /**
  * Basic styling
