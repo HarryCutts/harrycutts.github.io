@@ -65,6 +65,10 @@ figure > img {
 	display: block;
 }
 
+figure > .pure-g > * {
+	padding: 2px;
+}
+
 figcaption {
 	margin-top: 0.5em;
 	border-bottom: 1px solid $grey-color-light;
