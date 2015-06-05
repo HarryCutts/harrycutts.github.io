@@ -66,6 +66,10 @@ figure > img {
 	margin: 0 auto;
 }
 
+figure > img + img {
+	margin-top: 2px;
+}
+
 figure > .pure-g > * {
 	padding: 2px;
 }
