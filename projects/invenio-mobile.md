@@ -6,9 +6,9 @@ permalink: /projects/invenio-mobile/
 
 <figure>
 	<div class="pure-g">
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's search screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/search.png"></div>
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's results screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/results.png"></div>
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's record screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/record.png"></div>
+		<img class="pure-u-1-3" alt="Screenshot of the app's search screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/search.png">
+		<img class="pure-u-1-3" alt="Screenshot of the app's results screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/results.png">
+		<img class="pure-u-1-3" alt="Screenshot of the app's record screen on Android" src="{{site.baseurl}}/img/projects/invenio-mobile/android/record.png">
 	</div>
 	<figcaption>Screenshots of the Invenio Mobile app on Android.</figcaption>
 </figure>
@@ -19,9 +19,9 @@ Invenio is a Web service written in [Python][] and [Flask][], which allows users
 
 <figure>
 	<div class="pure-g">
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's search screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/search.png"></div>
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's results screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/results.png"></div>
-		<div class="pure-u-1-3"><img alt="Screenshot of the app's record screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/record.png"></div>
+		<img class="pure-u-1-3" alt="Screenshot of the app's search screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/search.png">
+		<img class="pure-u-1-3" alt="Screenshot of the app's results screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/results.png">
+		<img class="pure-u-1-3" alt="Screenshot of the app's record screen on iOS" src="{{site.baseurl}}/img/projects/invenio-mobile/ios/record.png">
 	</div>
 	<figcaption>Screenshots of the Invenio Mobile app on iOS. These screens are defined by the exact same HTML as those in the Android screenshots above.</figcaption>
 </figure>
