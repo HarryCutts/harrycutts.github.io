@@ -1,0 +1,79 @@
+https://keybase.io/hc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.harrycutts.me.uk
+  * I am hc (https://keybase.io/hc) on keybase.
+  * I have a public key with fingerprint 14C4 E347 399F 4D1F 9668  9CF6 4E44 A55E 80BB 7ECE
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.8"
+        },
+        "key": {
+            "fingerprint": "14c4e347399f4d1f96689cf64e44a55e80bb7ece",
+            "host": "keybase.io",
+            "key_id": "4E44A55E80BB7ECE",
+            "uid": "850f9ef8d53cf476852c69f1bb501819",
+            "username": "hc"
+        },
+        "merkle_root": {
+            "ctime": 1436265033,
+            "hash": "524492c906349fb461a87375490af9b5f11a431915181f0650a8c85ca938c02a63752373d60561261f9ac464b822d3afec6de83a2ae2c1e0cfd5803f60e3da8e",
+            "seqno": 256991
+        },
+        "service": {
+            "hostname": "www.harrycutts.me.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1436265055,
+    "expire_in": 157680000,
+    "prev": "3d29af98bcadf4a4226ba35fdaf21d2b0f4f6096e19ebd1cfb97b01e67cc44f1",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFdUmtQVVUU5oISkQ8yaCSdtAuoGV7PY+/zgMKACzZAMiSYNAies88+3MPjHu69
+h8eNlyiKTKUGZRlO+QDG1DGmkHJkUl4G44BhPkrGSc0CZNAZZBiGHOgchqbH/rX3
+Xt/61vq+tQ4s9PLwMW2yNqTvOF/WZ7o8LHqk1J3MLjaLquQ2hxWbUY6C7Zpxswu5
+2BxmzsZuUXBhi6KutKsStmS5Vs5hQs0F2OlSVLuOIiyshTOXhhpwI1lW7JnYmedU
+DC4zCRDANGBpnpeBRMo8w3A8khmAARAgxBwhiixGWKe0qS7tP1XNs5wZiqT/ghgA
+IiGM4YioKDYmOkaP5c8GOEjIPJY5CdJIBizDQQoxvEyKIiRIjuQNoAs75yTZkNFp
+LnZm5+AMp6rOykWaYgRJQDMUAwma1nsRXDYdDikAeArxBEMDXhYBQwocS7MQ8IQg
+8yKUSVIANMmTUC8lE3qywCEOIoGnOURQAqNjKZqlJYaADEkxun4BAQaIHEVJtCBj
+xEiYowVKwBQiMYFkCXIELTMEpiWBM1xxYYddNYdRkOF5stR4OwsU3S+9b8OwOV2F
+hYUWm+B0ulG+prksudiSn60n5zlVTUVqjqFc0/JcYYZ6zZ03m9KExYw5tgxRsUv6
+3P49WKPY/5yBMNSMi/IUJ85QDATU7Sb0YxTCBTonLVG8bgwnIkGSgQAoihEFGsqS
+IFOkRImEDHRtPINJHosSiWSRZ0WCxAyLEAAy+Y9eVu9TyNQpXUqmXdDyndhcWu25
+fJ6HycfDe76nsbkevk/7/b3OrVGLZ1zalfGOhF/RtpGSnhXt+3ZWdjzz5PrU4L6h
+V+LufmOdZqbHohe8VHFx4uCa5Bl19VW4t7Rh/z1vU/LE18drP/ogYrAPrbcOHOOr
+HHu7G+P5sAv9PlTs9iMpUyOBh069m7x/dK2vO62FPn2jMsDXq+PmlVrlxa+4gdD0
+h0MnJmuO1pvCb1S0dVV9mBw3bzo2eP2ngaasnMwkb/8sj2OV16aT+hZtDXA88CQO
+VpypOfqoDU2+1cduC0j9IjCo6s2e+Jr3dgv3O30P/NmsNi2RHm9+mGXqfi4LyKut
+r05oZ1ObHwQvHK+f9EzZFPXxqjtjx21dlXu2NCc09keU9Z6s6e9IrXtjefjAovEo
+IS1kRX+cZ/LOnF3NLb8FZvv5t6WlXJqszbwfTDsGupo+a7y0IWE3UeyLes5UJHzH
+T8Op9HawfXHkrfIj86vLzy0bix9qyFplzXFsDNo4CYMj/CoLmbfXvXaoz6czscoa
+Whdp+/mTBRPssPb851utuWveP7uBiWyPS68qKh6pC/ph9PT5kqLH0YfvOQK2ZF59
+dm3YudaXZ279fi1/x+Xbh2+uExMt18OVZXZZfKo1JHa4qPSF739Zuqu6fzDoVNKX
+7LfuITucjD7xZGk39WM5d0e8W5KnjHYGJtaHXBzxL+2NJFsJse/CkjLP26bsCnev
+37ip5Z2En9T0Px7lbyZet3n9BQ==
+=h5Wd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hc
