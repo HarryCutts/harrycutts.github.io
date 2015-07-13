@@ -161,3 +161,52 @@ $sidebar-width: 20%;
 		}
 	}
 }
+
+
+
+/**
+ * Image grid
+ */
+
+.img-grid .pure-g > [class *= "pure-u"] {
+	padding: 1px;
+}
+
+
+
+/**
+ * Image links (with title text appearing on mouseover)
+ */
+
+
+a.img-link {
+	display: block;
+	position: relative;
+
+	&:after {
+		content: attr(title);
+
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+
+		max-height: 100%;
+
+		padding: 20% 4px 4px;
+
+		font-size: small;
+		font-weight: bold;
+
+		//opacity: 0;
+		background: linear-gradient(transparent, rgba(0,0,0, 0.5));
+		color: white;
+		text-shadow: 1px 1px 2px black;
+
+		transition: 0.3s;
+	}
+
+	&:hover:after, &:focus:after {
+		opacity: 1;
+	}
+}
