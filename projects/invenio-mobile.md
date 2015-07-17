@@ -29,7 +29,7 @@ Invenio is a Web service written in [Python][] and [Flask][], which allows users
 The app was built using [Apache Cordova][], a hybrid app framework which allows HTML5 apps to be wrapped and deployed to Android, iOS and many other platforms. This is very useful for building simple cross-platform apps, but raises interesting security issues, as Cordova apps are vulnerable to Cross-Site Scripting. The Invenio app was to display content differently depending on which server it was connected to, meaning that I had to create a simple way to customise the display of records without using HTML (which could contain malicious scripts from a compromised server).
 
 [openlab-ss]: http://openlab.web.cern.ch/summer-student-programme
-[invenio]: http://inveniosoftware.org/
+[invenio]: http://invenio-software.org/
 [lightning-talk]: https://cds.cern.ch/record/1750935?ln=en
 [Python]: https://python.org/
 [Flask]: http://flask.pocoo.org/
