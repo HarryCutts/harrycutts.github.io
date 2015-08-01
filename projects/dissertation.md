@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Autonomous Landing Site Selection (Dissertation)
+description: >
+    My dissertation project, on Autonomous Landing Site Selection for Micro Aerial Vehicles.
+category: project
 permalink: /projects/dissertation/
 ---
 
@@ -23,7 +26,6 @@ The system was written in Python, and used [Robot Operating System][ros] to conn
 
 Park and Kim's proposed algorithm is fairly simple; essentially, it finds the largest circle of smooth (though not necessarily horizontal) terrain in a depth map. After implementing as much of it as I could using a fixed 3D scanner, I made a couple of improvements, adding a method for assessing the slope of a potential site, and using aircraft dimensions to allow it to determine whether the aircraft could fit in much smaller sites than its bounding circle would suggest.
 
-<!-- TODO: Vimeo embed (with explanation) -->
 <figure>
 	<iframe src="https://player.vimeo.com/video/95149059?title=0&byline=0&portrait=0" width="500" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
 		<a href="https://vimeo.com/95149059">Third-year Project Viva Demo</a> from <a href="https://vimeo.com/harrycutts">Harry Cutts</a> on <a href="https://vimeo.com">Vimeo</a>.

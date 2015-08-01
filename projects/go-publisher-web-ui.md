@@ -1,6 +1,9 @@
 ---
 layout: page
 title: GO Publisher Web UI
+description: >
+    A Web UI for job control I created during a summer internship at <a href="http://www.snowflakesoftware.com/">Snowflake Software</a>.
+category: project
 permalink: /projects/go-publisher-web-ui/
 legal_gumph: >
     Screenshots &copy; 2015 <a href="http://www.snowflakesoftware.com/">Snowflake Software</a>, all rights reserved.

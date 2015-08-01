@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Student Robotics Control Interface
+description: >
+    An interface to allow <a href="https://wwww.studentrobotics.org/">Student Robotics</a> competitors to manually test their robots' hardware.
+category: project
 permalink: /projects/sr-mci/
 ---
 

@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Consolid8
+description: >
+    One of my first published projects, an add-on for World of Warcraft.
+category: project
 permalink: /projects/consolid8/
 ---
 

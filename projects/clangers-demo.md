@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Clangers Demo
+description: >
+    My coursework demo for my computer graphics course, involving a Clanger and a badly-flown spacecraft.
+category: project
 permalink: /projects/clangers-demo/
 legal_gumph: >
     The Clangers identity is copyright &copy; Peter Firmin and Oliver Postgate. I am in no way associated with or endorsed by the BBC, Smallfilms, Peter Firmin or Oliver Postgate. For texture and code credits, see <a href="https://github.com/HarryCutts/comp3004-coursework#credits">the README on GitHub</a>.

@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Student Robotics Simulator
+description: >
+    A simple robot simulator written in Python.
+category: project
 permalink: /projects/sr-simulator/
 ---
 
