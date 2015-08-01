@@ -9,9 +9,11 @@ layout: bare
 		<div class="tagline">{{ site.tagline }}</div>
 
 		<nav>
-			{% for page in site.pages %}
-				{% if page.title and page.show_in_menu %}
-				<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+			{% for menu_page in site.pages %}
+				{% if menu_page.title and menu_page.show_in_menu %}
+				<a class="page-link{% if menu_page.url == page.url %} selected{% endif %}" href="{{ menu_page.url | prepend: site.baseurl }}">
+					{{ menu_page.title }}
+				</a>
 				{% endif %}
 			{% endfor %}
 		</nav>

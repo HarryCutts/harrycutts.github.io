@@ -30,12 +30,24 @@ $sidebar-width: 20%;
 		bottom: 0;
 		width: $sidebar-width;
 
+		& > * {
+			margin-bottom: $spacing-unit / 4;
+		}
+
 		& + div {
 			margin-left: $sidebar-width;
 		}
 
 		.mugshot {
 			float: none;
+		}
+
+		nav a {
+			display: block;
+
+			&.selected {
+				background-color: darken($sidebar-color, 10%);
+			}
 		}
 
 		.sidebar-footer {
