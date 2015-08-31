@@ -9,6 +9,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $sidebar-color:    #3f3f3f;
 $sidebar-text-color: #fdfdfd;
+$sidebar-borders-color: lighten($sidebar-color, 15%);
 $icon-color: $grey-color;
 
 $left-column-color: #eaeaea;

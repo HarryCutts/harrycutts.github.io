@@ -19,6 +19,9 @@ $sidebar-width: 20%;
 	a {
 		font-style: italic;
 	}
+	h1 > a {
+		font-style: normal
+	}
 
 	.mugshot {
 		float: left;
@@ -50,11 +53,26 @@ $sidebar-width: 20%;
 			float: none;
 		}
 
-		nav a {
-			display: block;
+		nav {
+			padding: ($spacing-unit / 8) 0;
+			border-top: $border-thickness solid $sidebar-borders-color;
+			border-bottom: $border-thickness solid $sidebar-borders-color;
 
-			&.selected {
-				background-color: darken($sidebar-color, 10%);
+			font-size: larger;
+
+			a {
+				display: block;
+
+				&:after {
+					content: "»";
+					position: absolute;
+					right: $padding * 1.5;
+					font-style: normal;
+				}
+
+				&.selected {
+					background-color: darken($sidebar-color, 10%);
+				}
 			}
 		}
 
