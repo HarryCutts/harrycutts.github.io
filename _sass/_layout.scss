@@ -12,6 +12,14 @@ $sidebar-width: 20%;
 
 	background-color: $sidebar-color;
 
+	*, a {
+		color: $sidebar-text-color;
+	}
+
+	a {
+		font-style: italic;
+	}
+
 	.mugshot {
 		float: left;
 
@@ -31,7 +39,7 @@ $sidebar-width: 20%;
 		width: $sidebar-width;
 
 		& > * {
-			margin-bottom: $spacing-unit / 4;
+			margin-bottom: $spacing-unit / 2;
 		}
 
 		& + div {
@@ -60,6 +68,10 @@ $sidebar-width: 20%;
 }
 
 /** Columns (such as on the index page) */
+
+.pure-g > .column:first-child {
+	background-color: $left-column-color;
+}
 
 .column {
 	padding: 8px;
