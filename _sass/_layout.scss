@@ -16,13 +16,6 @@ $sidebar-width: 20%;
 		color: $sidebar-text-color;
 	}
 
-	a {
-		font-style: italic;
-	}
-	h1 > a {
-		font-style: normal
-	}
-
 	.mugshot {
 		float: left;
 
@@ -62,6 +55,8 @@ $sidebar-width: 20%;
 
 			a {
 				display: block;
+				border-bottom: none;
+				font-style: italic;
 
 				&:after {
 					content: "»";
@@ -222,6 +217,7 @@ $sidebar-width: 20%;
 a.img-link {
 	display: block;
 	position: relative;
+	border-bottom: none;
 
 	&:after {
 		content: attr(title);
