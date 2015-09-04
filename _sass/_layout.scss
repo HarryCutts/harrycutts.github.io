@@ -16,6 +16,11 @@ $sidebar-width: 20%;
 		color: $sidebar-text-color;
 	}
 
+	a:hover, a:focus {
+		color: $sidebar-brand-color;
+	}
+
+
 	.mugshot {
 		float: left;
 
