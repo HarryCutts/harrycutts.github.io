@@ -99,7 +99,7 @@ $sidebar-width: 20%;
  * Site footer
  */
 .site-footer {
-	border-top: 1px solid $grey-color-light;
+	background-color: $left-column-color;
 	padding: $spacing-unit 0;
 }
 
@@ -117,7 +117,7 @@ $sidebar-width: 20%;
 
 .footer-grid {
 	font-size: 15px;
-	color: $grey-color;
+	color: $grey-color-dark;
 	@extend %clearfix;
 }
 
