@@ -27,9 +27,7 @@ The system was written in Python, and used [Robot Operating System][ros] to conn
 Park and Kim's proposed algorithm is fairly simple; essentially, it finds the largest circle of smooth (though not necessarily horizontal) terrain in a depth map. After implementing as much of it as I could using a fixed 3D scanner, I made a couple of improvements, adding a method for assessing the slope of a potential site, and using aircraft dimensions to allow it to determine whether the aircraft could fit in much smaller sites than its bounding circle would suggest.
 
 <figure>
-	<iframe src="https://player.vimeo.com/video/95149059?title=0&byline=0&portrait=0" width="500" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-		<a href="https://vimeo.com/95149059">Third-year Project Viva Demo</a> from <a href="https://vimeo.com/harrycutts">Harry Cutts</a> on <a href="https://vimeo.com">Vimeo</a>.
-	</iframe>
+	{% include vimeo_embed.html id="95149059" title="Third-year Project Viva Demo" %}
 	<figcaption>
 		<a href="https://vimeo.com/95149059">A video</a> that I showed during my viva, showing the system identifying landing sites in real-time with a fixed 3D scanner. The top-left window shows the depth map from the scanner, and the bottom-right shows the output of the algorithm. Circles indicate potential landing sites. Green circles are acceptable sites, orange circles are sites which are too small, and purple sites are too steep for a safe landing.
 	</figcaption>

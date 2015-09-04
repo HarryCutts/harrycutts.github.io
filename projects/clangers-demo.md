@@ -12,9 +12,7 @@ legal_gumph: >
 While at the University of Southampton, I took [a course in Computer Graphics][comp3004]. The coursework was to create a small 3D world based on [*The Clangers*](https://en.wikipedia.org/wiki/Clangers), a 1970s BBC children's program starring whistling rodents living on a small rock in space.
 
 <figure>
-	<iframe src="https://player.vimeo.com/video/83759625?title=0&byline=0&portrait=0" width="500" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
-		<a href="https://vimeo.com/83759625">COMP3004 Coursework - The Clangers</a> from <a href="https://vimeo.com/harrycutts">Harry Cutts</a> on <a href="https://vimeo.com">Vimeo</a>.
-	</iframe>
+	{% include vimeo_embed.html id="83759625" title="COMP3004 Coursework - The Clangers" %}
 	<figcaption>
 		<a href="https://vimeo.com/83759625">A video</a> of the action sequence built in to the demo.
 	</figcaption>

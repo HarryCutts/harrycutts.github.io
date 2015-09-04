@@ -2,6 +2,7 @@
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      hsl(223deg, 75%, 55%);
+	// When changing brand color, also update _includes/vimeo_embed.html
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
