@@ -21,8 +21,8 @@ The power board (which has since been replaced) had a low-resolution 4.3in displ
 
 <figure>
 	<div class="pure-g">
-		<img class="pure-u-1-2" alt="Screenshot of the servo control panel" src="{{site.baseurl}}/img/projects/sr-mci/servo-panel.png">
-		<img class="pure-u-1-2" alt="Screenshot of the motor control panel" src="{{site.baseurl}}/img/projects/sr-mci/motor-panel.png">
+		<div class="pure-u-1-2"><img alt="Screenshot of the servo control panel" src="{{site.baseurl}}/img/projects/sr-mci/servo-panel.png"></div>
+		<div class="pure-u-1-2"><img alt="Screenshot of the motor control panel" src="{{site.baseurl}}/img/projects/sr-mci/motor-panel.png"></div>
 	</div>
 	<figcaption>
 		Screenshots of the servo (left) and motor (right) control panels.
