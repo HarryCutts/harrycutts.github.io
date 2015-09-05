@@ -2,11 +2,12 @@
 title: Harry Cutts
 email: your-email@domain.com
 tagline: Computer scientist, author, and fencer.
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a Computer Science student in my final year at the University of
-  Southampton. My main interests are information security and user experience
-  design. In my spare time I fence, write fiction and contribute to
-  OpenStreetMap.
+description: >
+  I'm a recent graduate in Computer Science from the University of Southampton,
+  with work experience at CERN and Snowflake Software, about to start work at
+  Google. I have a wide variety of interests, including information security
+  and user experience design. In my spare time I fence, write fiction, and
+  contribute to OpenStreetMap.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 #twitter_username: jekyllrb

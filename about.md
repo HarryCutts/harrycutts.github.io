@@ -1,12 +1,18 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 show_in_menu: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a recent graduate in Computer Science from the [University of Southampton][], with work experience at [CERN](/projects/invenio-mobile/) and [Snowflake Software](/projects/go-publisher-web-ui/), about to start work at [Google][]. I have a wide variety of interests, including information security and user experience design. In my spare time I fence, [write fiction](/writing/), and contribute to [OpenStreetMap][].
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+While at University, I was an active volunteer for [Student Robotics][], a charity which runs an annual robotics competition for sixth-form students to promote engineering careers. I helped to run numerous events over four years, wrote tools for [software](/projects/sr-simulator/) and [hardware](/projects/sr-mci/) prototyping, and was briefly responsible for public relations.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The easiest way to contact me is [via email][email-captcha]. (If you want to encrypt your email, my PGP key is [on KeyBase](https://keybase.io/hc/).) You can find a number of my (sometimes abandoned) projects on [my GitHub account](https://github.com/{{site.github_username}}).
+
+[University of Southampton]: https://www.ecs.soton.ac.uk/
+[Google]: https://www.google.com/
+[OpenStreetMap]: https://www.openstreetmap.org/
+[Student Robotics]: https://www.studentrobotics.org/
+[email-captcha]: http://www.google.com/recaptcha/mailhide/d?k=01sTiyQtbP_RmjnQwd_LL5nA==&c=RLEHvb9LouijKewAugGxCUJrhzMWfhj8iF20ZTeW85U=
