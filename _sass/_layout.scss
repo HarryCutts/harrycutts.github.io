@@ -20,6 +20,9 @@ $sidebar-width: 20%;
 		color: $sidebar-brand-color;
 	}
 
+	& > * {
+		margin-bottom: $spacing-unit / 4;
+	}
 
 	.mugshot {
 		float: left;
@@ -27,6 +30,10 @@ $sidebar-width: 20%;
 		width: 80%;
 		max-width: 12em;
 		border-radius: 50%;
+	}
+
+	nav a {
+		margin: 0 ($spacing-unit / 8);
 	}
 
 	.sidebar-footer {

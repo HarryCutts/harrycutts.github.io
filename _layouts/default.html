@@ -12,8 +12,7 @@ layout: bare
 			{% for menu_page in site.pages %}
 				{% if menu_page.title and menu_page.show_in_menu %}
 				<a class="page-link{% if menu_page.url == page.url %} selected{% endif %}" href="{{ menu_page.url | prepend: site.baseurl }}">
-					{{ menu_page.title }}
-				</a>
+					{{ menu_page.title }}</a>
 				{% endif %}
 			{% endfor %}
 		</nav>
