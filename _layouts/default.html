@@ -4,6 +4,7 @@ layout: bare
 
 <div>
 	<header class="sidebar">
+		<a class="skip-link" href="#main">Skip to content »</a>
 		<img class="mugshot" src="{{ site.baseurl }}/img/profile.jpg">
 		<h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 		<div class="tagline">{{ site.tagline }}</div>
@@ -57,7 +58,7 @@ layout: bare
 		</div>
 	</header>
 
-	<div class="page-content">
+	<div id="main" class="page-content">
 		{{ content }}
 	</div>
 </div>
