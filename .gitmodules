@@ -1,0 +1,3 @@
+[submodule "just-encrypt"]
+	path = just-encrypt
+	url = https://github.com/HarryCutts/just-encrypt.git
