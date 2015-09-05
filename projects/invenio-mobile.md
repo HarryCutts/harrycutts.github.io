@@ -31,9 +31,15 @@ Invenio is a Web service written in [Python][] and [Flask][], which allows users
 
 The app was built using [Apache Cordova][], a hybrid app framework which allows HTML5 apps to be wrapped and deployed to Android, iOS and many other platforms. This is very useful for building simple cross-platform apps, but raises interesting security issues, as Cordova apps are vulnerable to Cross-Site Scripting. The Invenio app was to display content differently depending on which server it was connected to, meaning that I had to create a simple way to customise the display of records without using HTML (which could contain malicious scripts from a compromised server).
 
+Within the Cordova framework, I used [jQuery][], [JinjaJS][] for templates, and [TaffyDB][] (a JavaScript database library for semi-structured data). I found the [Ratchet][] CSS framework particularly useful for making the app look native on both Android and iOS.
+
 [openlab-ss]: http://openlab.web.cern.ch/summer-student-programme
 [invenio]: http://invenio-software.org/
 [lightning-talk]: https://cds.cern.ch/record/1750935?ln=en
 [Python]: https://python.org/
 [Flask]: http://flask.pocoo.org/
 [Apache Cordova]: https://cordova.apache.org/
+[jQuery]: https://jquery.com/
+[JinjaJS]: https://github.com/sstur/jinja-js
+[TaffyDB]: http://www.taffydb.com/
+[Ratchet]: http://goratchet.com/
