@@ -65,6 +65,11 @@ $sidebar-width: 20%;
 		margin: 0 ($spacing-unit / 8);
 	}
 
+	.contact-list li, .social-media-list li {
+		display: inline-block;
+		margin: 0 ($spacing-unit / 8);
+	}
+
 	.sidebar-footer {
 		font-size: $small-font-size;
 	}
@@ -110,6 +115,10 @@ $sidebar-width: 20%;
 					background-color: darken($sidebar-color, 10%);
 				}
 			}
+		}
+
+		.contact-list li, .social-media-list li {
+			display: block;
 		}
 
 		.sidebar-footer {
