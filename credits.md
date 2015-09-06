@@ -15,6 +15,8 @@ Website copyright &copy; {{ site.time | date: "%Y" }} Harry Cutts. All rights re
 
 The [Pure][] CSS framework is copyright &copy; 2014 Yahoo! Inc., used under [the Yahoo! Inc. BSD license][pure-license].
 
+Icons from [Font Awesome][] by Dave Gandy, licensed under [SIL OFL 1.1](http://scripts.sil.org/OFL).
+
 A shout-out to [Jekyll][] for a great static site generator.
 
 GO Publisher Workflow, its name, screenshots of it, and the Snowflake Software name and logo are copyright &copy; 2015 [Snowflake Software][], all rights reserved, and used with their permission.
@@ -23,5 +25,6 @@ The Clangers identity is copyright &copy; Peter Firmin and Oliver Postgate. I am
 
 [Pure]: http://purecss.io/
 [pure-license]: /bower_components/pure/LICENSE.md
+[Font Awesome]: http://fontawesome.io/
 [Jekyll]: http://jekyllrb.com/
 [Snowflake Software]: http://www.snowflakesoftware.com/

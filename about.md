@@ -9,10 +9,10 @@ I'm a recent graduate in Computer Science from the [University of Southampton][]
 
 While at University, I was an active volunteer for [Student Robotics][], a charity which runs an annual robotics competition for sixth-form students to promote engineering careers. I helped to run numerous events over four years, wrote tools for [software](/projects/sr-simulator/) and [hardware](/projects/sr-mci/) prototyping, and was briefly responsible for public relations.
 
-The easiest way to contact me is [via email][email-captcha]. (If you want to encrypt your email, my PGP key is [on KeyBase](https://keybase.io/hc/).) You can find a number of my (sometimes abandoned) projects on [my GitHub account](https://github.com/{{site.github_username}}).
+The easiest way to contact me is [via email][email-captcha]. (If you want to encrypt your email, my PGP key is [on KeyBase](https://keybase.io/{{site.keybase_username}}).) You can find a number of my (sometimes abandoned) projects on [my GitHub account](https://github.com/{{site.github_username}}).
 
 [University of Southampton]: https://www.ecs.soton.ac.uk/
 [Google]: https://www.google.com/
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Student Robotics]: https://www.studentrobotics.org/
-[email-captcha]: http://www.google.com/recaptcha/mailhide/d?k=01sTiyQtbP_RmjnQwd_LL5nA==&c=RLEHvb9LouijKewAugGxCUJrhzMWfhj8iF20ZTeW85U=
+[email-captcha]: {{ site.mailhide_url }}
