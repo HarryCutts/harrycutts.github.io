@@ -181,8 +181,20 @@ $sidebar-width: 20%;
 	list-style: none;
 
 	> li {
-		margin-bottom: $spacing-unit;
+		padding-bottom: $spacing-unit / 2;
+		border-bottom: 1px solid lighten($grey-color, 30%);
+		margin-bottom: $spacing-unit / 2;
+
+		.post-list-preview {
+			font-size: smaller;
+
+			& > :last-child { margin-bottom: 0 }
+		}
 	}
+}
+
+.subscribe-link {
+	text-align: center;
 }
 
 .post-meta {

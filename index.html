@@ -63,20 +63,24 @@ layout: default
 	</div>
 
 	<div class="column pure-u-1 pure-u-md-1-2">
-		<h1>Posts</h1>
+		<h1>Blog</h1>
 
-		<ul>
+		<ul class="post-list">
 			{% for post in site.posts %}
 				<li>
-					<span>{{ post.date | date: "%b %-d, %Y" }}</span>
+					<span class="post-list-date">{{ post.date | date: "%b %-d, %Y" }}</span>
 
 					<h2>
 						<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 					</h2>
+					<div class="post-list-preview">{{ post.content | truncatewords: 30, '...' }}</div>
 				</li>
 			{% endfor %}
 		</ul>
 
-		<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		<p class="subscribe-link">
+			<i class="fa fa-rss-square"></i>
+			<a href="{{ "/feed.xml" | prepend: site.baseurl }}">subscribe via RSS</a>
+		</p>
 	</div>
 </div>
