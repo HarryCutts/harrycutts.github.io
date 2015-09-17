@@ -12,14 +12,14 @@ permalink: /projects/sr-simulator/
 	<figcaption>A screenshot of the simulator, with four robots (in blue) pursuing a number of wheeled tokens (orange). The gray boxes represent barriers.</figcaption>
 </figure>
 
-During my time at Southampton University, and as part of my volunteer work with [Student Robotics][], I helped to run three [Smallpeice Computing and Microelectronics Summer Schools][summer-schools]. I took responsibility for running the programming workshops, for which I wrote a basic simulator to allow the participants to try out their ideas. It is now used for this summer school every year, as well as the main Student Robotics competition.
+During my time at Southampton University, and as part of my volunteer work with [Student Robotics][], I helped to run three [Smallpeice Trust][] Computing and Microelectronics Summer Schools. I took responsibility for running the programming workshops, for which I wrote a basic simulator to allow the participants to try out their ideas. It is now used for this summer school every year, as well as the main Student Robotics competition.
 
 [The simulator][srobo-page] provides [an API][srobo-page-api] through which the user can control a virtual robot, which is designed to be as similar as possible to the API for the real Student Robotics kit. The user writes their program in Python and can then run it in a simulated arena, which contains the same obstacles, markers, and objectives as the arena in which they will compete. A game with up to four virtual robots can be simulated.
 
 The simulator uses [PyGame][] and the [PyPyBox2D][] physics engine, allowing it to be run using a [Portable Python][] installation without administrator rights on Windows. ([ZIP files for Windows, Linux and Mac OS X][srobo-page] are available from the Student Robotics website.) The source code is available [on GitHub][github-project].
 
 [Student Robotics]: https://www.studentrobotics.org/
-[summer-schools]: http://www.smallpeicetrust.org.uk/residential-courses/computing-and-microelectronics/
+[Smallpeice Trust]: http://www.smallpeicetrust.org.uk/
 [srobo-page]: https://www.studentrobotics.org/docs/programming/simulator
 [srobo-page-api]: https://www.studentrobotics.org/docs/programming/simulator#Interface
 [PyGame]: http://pygame.org/

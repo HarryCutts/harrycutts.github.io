@@ -11,7 +11,7 @@ While at University, I was an active volunteer for [Student Robotics][], a chari
 
 The easiest way to contact me is [via email][email-captcha]. (If you want to encrypt your email, my PGP key is [on KeyBase](https://keybase.io/{{site.keybase_username}}).) You can find a number of my (sometimes abandoned) projects on [my GitHub account](https://github.com/{{site.github_username}}).
 
-[University of Southampton]: https://www.ecs.soton.ac.uk/
+[University of Southampton]: http://www.ecs.soton.ac.uk/
 [Google]: https://www.google.com/
 [OpenStreetMap]: https://www.openstreetmap.org/
 [Student Robotics]: https://www.studentrobotics.org/
