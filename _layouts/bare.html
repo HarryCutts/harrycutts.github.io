@@ -3,6 +3,14 @@
 	{% include head.html %}
 
 	<body>
+		<!--[if lte IE 6]>
+			<div class="browser-warning" style="background-color: red">
+				This site does not display properly on old versions of Internet Explorer. Please upgrade to
+				a modern web browser. For more information, visit
+				<a href="https://www.whatbrowser.org/">whatbrowser.org</a>.
+			</div>
+		<![endif]-->
+
 		{{ content }}
 	</body>
 </html>
