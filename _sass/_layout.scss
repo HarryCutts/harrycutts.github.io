@@ -70,10 +70,6 @@ $sidebar-width: 20%;
 		margin: 0 ($spacing-unit / 8);
 	}
 
-	.sidebar-footer {
-		font-size: small;
-	}
-
 	@media screen and (min-width: $device-palm) {
 		position: fixed;
 		top: 0;
@@ -146,6 +142,10 @@ $sidebar-width: 20%;
 .site-footer {
 	background-color: $left-column-color;
 	padding: $spacing-unit 0;
+
+	.copyright-notice {
+		text-align: left;
+	}
 }
 
 .footer-heading {
@@ -164,6 +164,11 @@ $sidebar-width: 20%;
 	font-size: 15px;
 	color: $grey-color-dark;
 	@extend %clearfix;
+}
+
+.copyright-notice {
+	font-size: small;
+	text-align: center;
 }
 
 
