@@ -134,6 +134,11 @@ $sidebar-width: 20%;
 	}
 }
 
+.clearfix {
+	clear: both;
+	margin: 0;
+}
+
 /** Columns (such as on the index page) */
 
 .pure-g > .column:first-child {
