@@ -76,6 +76,11 @@ $sidebar-width: 20%;
 		bottom: 0;
 		width: $sidebar-width;
 
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+
 		& > * {
 			margin-bottom: $spacing-unit / 2;
 		}
@@ -86,9 +91,12 @@ $sidebar-width: 20%;
 
 		.mugshot {
 			float: none;
+			max-width: none;
 		}
 
 		nav {
+			align-self: stretch;
+
 			padding: ($spacing-unit / 8) 0;
 			border-top: $border-thickness solid $sidebar-borders-color;
 			border-bottom: $border-thickness solid $sidebar-borders-color;
