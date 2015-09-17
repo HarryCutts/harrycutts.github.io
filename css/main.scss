@@ -26,6 +26,12 @@ $device-laptop:    800px;
 		url("{{site.baseurl}}/fonts/DejaVuSans-ExtraLight.ttf");
 }
 
+@font-face {
+	font-family: "DejaVu Sans Mono";
+	src: local("DejaVu Sans Mono"),
+		url("{{site.baseurl}}/fonts/DejaVuSansMono.ttf");
+}
+
 
 // Using media queries with like this:
 // @include media-query($palm) {
