@@ -1,3 +1,6 @@
 [submodule "just-encrypt"]
 	path = just-encrypt
 	url = https://github.com/HarryCutts/just-encrypt.git
+[submodule "sp2015"]
+	path = sp2015
+	url = ssh://git@al-dhanab.harrycutts.me.uk/smallpeice-2015-presentation.git
