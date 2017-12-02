@@ -2,11 +2,11 @@
 title: Harry Cutts
 tagline: Computer scientist, author, and fencer.
 description: >
-  I'm a recent graduate in Computer Science from the University of Southampton,
-  with work experience at CERN and Snowflake Software, about to start work at
-  Google. I have a wide variety of interests, including information security
-  and user experience design. In my spare time I fence, write fiction, and
-  contribute to OpenStreetMap.
+  I'm a recent graduate in Computer Science from the University of Southampton
+  currently working at Google, with previous work experience at CERN and
+  Snowflake Software. I have a wide variety of interests, including information
+  security and user experience design. In my spare time I fence, write fiction,
+  and contribute to OpenStreetMap.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.harrycutts.me.uk" # the base hostname & protocol for your site
 
