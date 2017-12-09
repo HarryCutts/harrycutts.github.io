@@ -133,6 +133,18 @@ h1 > a {
 
 
 /**
+ * Abbreviations
+ */
+abbr[title] {
+	/* Pure adds a dotted bottom border, but doesn't get rid of the dotted underline in the browser
+	 * style sheet, so remove that.
+	 */
+	text-decoration: none;
+}
+
+
+
+/**
  * Blockquotes
  */
 blockquote {
