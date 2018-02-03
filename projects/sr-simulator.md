@@ -5,6 +5,8 @@ description: >
     A simple robot simulator written in Python.
 category: project
 permalink: /projects/sr-simulator/
+sitemap:
+    lastmod: 2015-09-17
 ---
 
 <figure>

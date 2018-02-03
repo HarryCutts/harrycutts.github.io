@@ -3,6 +3,8 @@ layout: page
 title: Writing
 show_in_menu: true
 permalink: /writing/
+sitemap:
+  lastmod: 2015-09-11
 ---
 
 Creative writing is one of my hobbies. I'm working on a fantasy novel, and every now and then I write short stories, which can be found below. I've also written a number of things on [Typetrigger](#typetrigger).

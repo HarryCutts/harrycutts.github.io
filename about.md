@@ -3,6 +3,9 @@ layout: page
 title: About me
 permalink: /about/
 show_in_menu: true
+sitemap:
+  lastmod: 2018-02-02
+  priority: 0.7
 ---
 
 I'm a recent graduate in Computer Science from the [University of Southampton][] currently working at Google, with previous work experience at [CERN](/projects/invenio-mobile/) and [Snowflake Software](/projects/go-publisher-web-ui/). I have a wide variety of interests, including information security and user experience design. In my spare time I fence, [write fiction](/writing/), and contribute to [OpenStreetMap][].

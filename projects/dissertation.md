@@ -5,6 +5,8 @@ description: >
     My dissertation project, on Autonomous Landing Site Selection for Micro Aerial Vehicles.
 category: project
 permalink: /projects/dissertation/
+sitemap:
+    lastmod: 2015-09-11
 ---
 
 <figure>

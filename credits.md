@@ -2,6 +2,9 @@
 layout: page
 title: Credits and legal stuff
 permalink: /credits/
+sitemap:
+  lastmod: 2015-09-11
+  priority: 0.1
 ---
 
 The views I express on this site are my own, and are not necessarily those of my current or former employers.

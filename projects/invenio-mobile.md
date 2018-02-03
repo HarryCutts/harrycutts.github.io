@@ -5,6 +5,8 @@ description: >
     A hybrid mobile app for the Invenio document repository, written during my summer at CERN.
 category: project
 permalink: /projects/invenio-mobile/
+sitemap:
+    lastmod: 2015-09-11
 ---
 
 <figure>

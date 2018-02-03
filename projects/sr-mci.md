@@ -5,6 +5,8 @@ description: >
     An interface to allow <a href="https://wwww.studentrobotics.org/">Student Robotics</a> competitors to manually test their robots' hardware.
 category: project
 permalink: /projects/sr-mci/
+sitemap:
+    lastmod: 2015-09-11
 ---
 
 <figure>
