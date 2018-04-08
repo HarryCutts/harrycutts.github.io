@@ -10,7 +10,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.harrycutts.me.uk" # the base hostname & protocol for your site
 
-mailhide_url: https://www.google.com/recaptcha/mailhide/d?k=01sTiyQtbP_RmjnQwd_LL5nA==&c=RLEHvb9LouijKewAugGxCUJrhzMWfhj8iF20ZTeW85U
+mailhide_url: https://spamty.eu/mail/v4/800/srhYqbiY412ace2ae8/
 #twitter_username: jekyllrb
 github_username:  HarryCutts
 keybase_username: hc
