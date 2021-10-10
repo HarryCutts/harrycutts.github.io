@@ -6,14 +6,14 @@
 	<title>{% if page.title %}{{ page.title }} &mdash; {% endif %}{{ site.title }}</title>
 	<meta name="description" content="{{ site.description }}">
 
-	<link rel="stylesheet" href="{{ "/bower_components/pure/pure-min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/libs/pure/pure-min.css" | prepend: site.baseurl }}">
 	<!--[if lte IE 8]>
-		<link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-old-ie-min.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/libs/pure/grids-responsive-old-ie-min.css" | prepend: site.baseurl }}">
 	<![endif]-->
 	<!--[if gt IE 8]><!-->
-		<link rel="stylesheet" href="{{ "/bower_components/pure/grids-responsive-min.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="{{ "/libs/pure/grids-responsive-min.css" | prepend: site.baseurl }}">
 	<!--<![endif]-->
-	<link rel="stylesheet" href="{{ "/bower_components/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/libs/font-awesome.min.css" | prepend: site.baseurl }}">
 
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

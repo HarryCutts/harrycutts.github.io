@@ -29,7 +29,7 @@ GO Publisher Workflow, its name, screenshots of it, and the Snowflake Software n
 The Clangers identity is copyright &copy; Peter Firmin and Oliver Postgate. I am in no way associated with or endorsed by the BBC, Smallfilms, Peter Firmin or Oliver Postgate.
 
 [Pure]: http://purecss.io/
-[pure-license]: /bower_components/pure/LICENSE.md
+[pure-license]: /libs/pure/LICENSE.md
 [dejavu-license]: /fonts/DejaVu-license.txt
 [Font Awesome]: http://fontawesome.io/
 [Jekyll]: http://jekyllrb.com/
